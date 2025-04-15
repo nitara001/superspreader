@@ -1,0 +1,17 @@
+infectee,infectors
+FF8,['SEED']
+FM1,"['FF8', 'YF3', 'JF4']"
+FF7,['FM1']
+FF4,['FM1']
+YF1,['FM1']
+FF2,['FM1']
+JF3,['FM1']
+FF3,['FM1']
+FM3,['YF3']
+FF1,['FM1']
+FF5,['FM1']
+J1,['JF3']
+JF1,"['FM1', 'J1']"
+FM2,"['YF1', 'JF1']"
+YF4,"['FM1', 'FM2']"
+YM2,['YF4']

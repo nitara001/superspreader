@@ -1,0 +1,7 @@
+time,infector,infectee,run_id
+0.0,,Hm1,1
+0.0,,Mf1,2
+0.0,,Sf1,3
+0.5736001720343523,Sf1,Sm1,3
+0.0,,Sm2,4
+0.0,,Sf4,5

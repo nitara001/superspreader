@@ -1,0 +1,18 @@
+infectee,infectors
+Tag53,['SEED']
+Tag9,['Tag53']
+Tag11,"['Tag9', 'Tag53']"
+Tag18,"['Tag11', 'Tag53']"
+Tag19,"['Tag9', 'Tag53', 'Tag18']"
+Tag17,"['Tag9', 'Tag19']"
+Tag52,"['Tag9', 'Tag19']"
+Tag51,"['Tag9', 'Tag17', 'Tag52', 'Tag19']"
+Tag12,"['Tag9', 'Tag11', 'Tag53', 'Tag51', 'Tag18']"
+Tag5,"['Tag12', 'Tag53', 'Tag51', 'Tag18', 'Tag19']"
+Tag15,"['Tag9', 'Tag12']"
+Tag55,"['Tag51', 'Tag12', 'Tag19']"
+Tag10,['Tag15']
+Tag2,"['Tag5', 'Tag9', 'Tag15', 'Tag51', 'Tag18', 'Tag55']"
+Tag8,"['Tag5', 'Tag51', 'Tag19']"
+Tag23,"['Tag2', 'Tag19']"
+Tag6,"['Tag5', 'Tag55', 'Tag2', 'Tag23', 'Tag17', 'Tag12', 'Tag52', 'Tag53', 'Tag51', 'Tag19']"

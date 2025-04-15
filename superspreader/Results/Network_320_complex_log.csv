@@ -1,0 +1,18 @@
+infectee,infectors
+Tag5,['SEED']
+Tag55,['Tag5']
+Tag2,['Tag5']
+Tag52,"['Tag5', 'Tag2']"
+Tag11,"['Tag5', 'Tag2', 'Tag55', 'Tag52']"
+Tag51,"['Tag5', 'Tag2', 'Tag55', 'Tag11', 'Tag52']"
+Tag12,"['Tag5', 'Tag2', 'Tag55', 'Tag11', 'Tag52', 'Tag51']"
+Tag8,"['Tag5', 'Tag2', 'Tag55', 'Tag12', 'Tag11', 'Tag52', 'Tag51']"
+Tag15,"['Tag5', 'Tag2', 'Tag8', 'Tag12', 'Tag11', 'Tag52', 'Tag51']"
+Tag19,"['Tag5', 'Tag2', 'Tag8', 'Tag55', 'Tag15', 'Tag12', 'Tag11', 'Tag52', 'Tag51']"
+Tag9,"['Tag5', 'Tag2', 'Tag8', 'Tag55', 'Tag15', 'Tag12', 'Tag11', 'Tag52', 'Tag51', 'Tag19']"
+Tag10,"['Tag5', 'Tag2', 'Tag8', 'Tag9', 'Tag55', 'Tag15', 'Tag12', 'Tag11', 'Tag51', 'Tag19']"
+Tag53,"['Tag5', 'Tag2', 'Tag8', 'Tag9', 'Tag15', 'Tag12', 'Tag11', 'Tag52', 'Tag51', 'Tag19']"
+Tag17,"['Tag5', 'Tag2', 'Tag8', 'Tag9', 'Tag55', 'Tag15', 'Tag12', 'Tag11', 'Tag52', 'Tag53', 'Tag51', 'Tag19']"
+Tag18,"['Tag5', 'Tag2', 'Tag8', 'Tag9', 'Tag17', 'Tag15', 'Tag12', 'Tag11', 'Tag52', 'Tag53', 'Tag51', 'Tag19']"
+Tag23,"['Tag5', 'Tag2', 'Tag8', 'Tag17', 'Tag15', 'Tag12', 'Tag11', 'Tag52', 'Tag53', 'Tag18', 'Tag19']"
+Tag6,"['Tag5', 'Tag2', 'Tag8', 'Tag9', 'Tag23', 'Tag17', 'Tag15', 'Tag12', 'Tag10', 'Tag11', 'Tag52', 'Tag53', 'Tag51', 'Tag18', 'Tag19']"

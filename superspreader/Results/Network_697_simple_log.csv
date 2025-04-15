@@ -1,0 +1,12 @@
+infectee,infectors
+lola,['SEED']
+marley,['lola']
+quique,['lola']
+tamara,['marley']
+jose,['tamara']
+monga,['jose']
+chao,['tamara']
+josefa,['chao']
+gatti,['josefa']
+orejas,['gatti']
+ana,['gatti']

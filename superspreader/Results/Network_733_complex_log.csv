@@ -1,0 +1,41 @@
+infectee,infectors
+Q,['SEED']
+R,['Q']
+Z,['DD']
+OO,['MM']
+I,['Z']
+II,"['Z', 'DD']"
+CC,"['Z', 'DD', 'II']"
+QQ,"['O', 'Z', 'CC', 'DD', 'II']"
+PP,"['MM', 'OO']"
+GG,"['CC', 'DD', 'II', 'MM', 'OO', 'PP']"
+HH,"['QQ', 'Z', 'CC', 'DD', 'GG', 'II']"
+JJ,"['DD', 'HH', 'II', 'GG']"
+AA,"['I', 'Z', 'CC', 'DD', 'HH', 'II']"
+EE,"['DD', 'HH', 'II', 'JJ', 'GG']"
+LL,"['GG', 'MM', 'OO', 'PP']"
+FF,"['CC', 'DD', 'HH', 'II', 'EE', 'GG', 'LL', 'MM', 'OO', 'PP']"
+KK,"['DD', 'HH', 'II', 'EE', 'FF', 'GG', 'JJ', 'LL', 'MM', 'OO', 'PP']"
+NN,"['FF', 'GG', 'KK', 'LL', 'MM', 'OO', 'PP']"
+C,['I']
+T,"['Z', 'AA']"
+J,"['QQ', 'C', 'I', 'AA', 'CC']"
+U,"['C', 'Q', 'R', 'T', 'Z']"
+BB,"['U', 'J', 'I', 'Z', 'AA', 'T', 'CC', 'DD', 'HH', 'II']"
+N,"['QQ', 'O']"
+B,"['U', 'QQ', 'J', 'C']"
+W,"['C', 'N', 'Q', 'R', 'T', 'Z', 'BB']"
+D,"['B', 'C', 'J']"
+M,"['B', 'D', 'U', 'N', 'O', 'W', 'QQ']"
+S,"['W', 'Z', 'AA', 'BB', 'Q', 'R']"
+V,"['U', 'W', 'Q', 'R', 'S']"
+X,"['M', 'J', 'I', 'O', 'Q', 'R', 'S', 'V', 'Z', 'BB', 'EE', 'FF', 'GG']"
+P,"['U', 'J', 'W', 'V', 'X', 'S', 'R', 'Q']"
+A,"['B', 'D']"
+L,"['A', 'D', 'I', 'J', 'M', 'N', 'O', 'U', 'V', 'W', 'X', 'QQ']"
+K,"['A', 'B', 'L', 'C', 'D', 'I', 'J', 'QQ', 'X', 'U', 'V', 'W', 'N', 'M']"
+G,"['L', 'K', 'D', 'J', 'I']"
+F,"['K', 'D', 'J', 'I', 'G']"
+E,"['L', 'K', 'D', 'J', 'I', 'G', 'F']"
+Y,"['L', 'K', 'M', 'P', 'N', 'O', 'Q', 'R', 'S', 'V', 'Z', 'BB', 'EE', 'FF', 'GG']"
+H,"['L', 'K', 'J', 'I', 'G', 'F', 'E', 'P', 'X', 'Y', 'Z', 'AA', 'BB']"

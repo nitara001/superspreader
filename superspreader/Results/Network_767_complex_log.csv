@@ -1,0 +1,19 @@
+infectee,infectors
+Hnn,['SEED']
+Miy,['Hnn']
+Bla,"['Hnn', 'Miy', 'Zin']"
+Raf,"['Eli', 'Bla', 'Hnn']"
+Dor,"['Eli', 'Bla', 'Hnn', 'Miy', 'Raf', 'Zin']"
+Zaz,"['Eli', 'Dor', 'Zin']"
+Nob,"['Eli', 'Zaz', 'Bla', 'Dor', 'Raf', 'Zin']"
+Cho,"['Eli', 'Zaz', 'Bla', 'Dor', 'Nob', 'Zin']"
+Sar,"['Eli', 'Zaz', 'Dor', 'Nob', 'Zin', 'Cho']"
+Chi,"['Zaz', 'Nob', 'Zin', 'Cho', 'Sar']"
+Jun,"['Cho', 'Dor', 'Hnn', 'Nob', 'Raf', 'Sar', 'Zaz', 'Zin']"
+Liv,"['Eli', 'Jun', 'Cho', 'Dor', 'Nob', 'Raf', 'Sar', 'Zaz', 'Zin']"
+Fum,"['Bla', 'Dor']"
+Ani,"['Eli', 'Fum', 'Jun', 'Liv', 'Bla']"
+Kik,"['Ani', 'Eli', 'Fum', 'Dor', 'Nob']"
+Ann,"['Ani', 'Fum', 'Kik', 'Liv', 'Zaz']"
+Elz,"['Ani', 'Eli', 'Chi', 'Cho', 'Kik', 'Jun']"
+Oli,"['Ann', 'Ani', 'Eli', 'Liv', 'Kik', 'Nob', 'Bla']"

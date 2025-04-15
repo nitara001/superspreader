@@ -1,0 +1,21 @@
+infectee,infectors
+MARILIN,['SEED']
+X2T,['MARILIN']
+ALPHAF,"['MARILIN', 'L11']"
+A330,"['MARILIN', 'L11', 'ALPHAF']"
+Z,"['X2T', 'MARILIN', 'A330', 'ALPHAF']"
+PUNK,"['X2T', 'MARILIN', 'L11', 'Z', 'A330', 'ALPHAF']"
+NARINE,"['MARILIN', 'L11', 'PUNK']"
+NEIG,"['X2T', 'NARINE', 'Z', 'ALPHAF', 'PUNK']"
+MA,"['X2T', 'NARINE', 'NEIG', 'MARILIN', 'Z', 'A330', 'PUNK']"
+DIANA,"['MARILIN', 'L11', 'Z', 'A330', 'MA', 'PUNK']"
+K431,"['MARILIN', 'L11', 'DIANA', 'MA', 'PUNK', 'Z', 'A330']"
+P277,"['X2T', 'NEIG', 'MARILIN', 'DIANA', 'MA', 'PUNK', 'K431', 'Z']"
+G400,"['NARINE', 'P277', 'Z', 'A330', 'MA', 'ALPHAF', 'PUNK', 'DIANA', 'MARILIN']"
+P274,"['NARINE', 'NEIG', 'MA', 'K431']"
+X2L,"['X2T', 'P274', 'G400']"
+PIRAT,"['P274', 'G400', 'P277', 'MA', 'PUNK']"
+EPIS,"['X2T', 'X2L', 'G400', 'PIRAT', 'P277', 'MA', 'PUNK']"
+P360,"['X2L', 'NARINE', 'Z', 'DIANA', 'PUNK', 'G400', 'K431']"
+PP,"['P360', 'PIRAT']"
+O203,"['X2L', 'P274', 'NEIG', 'G400', 'PP', 'PIRAT', 'EPIS', 'DIANA']"

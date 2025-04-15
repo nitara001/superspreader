@@ -1,0 +1,13 @@
+infectee,infectors
+LWBM,['SEED']
+BMRY,['LWBM']
+WRCM,['BMRY']
+BMRV,['BMRY']
+BMRR,['BMRV']
+BMWY,['BMRY']
+BMZF,['BMRY']
+BMWR,['WRCM']
+MUWU,['BMRV']
+BMVV,['BMRR']
+BMVY,['BMRR']
+BMZZ,['MUWU']

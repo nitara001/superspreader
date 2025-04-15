@@ -1,0 +1,7 @@
+time,infector,infectee,run_id
+0.0,,N,1
+0.0,,S,2
+0.0,,DB,3
+0.0,,S,4
+0.0,,STARSCAR,5
+0.2067448948565268,STARSCAR,DB,5

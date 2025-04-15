@@ -1,0 +1,13 @@
+infectee,infectors
+MI,['SEED']
+RA,['MI']
+SU,['MI']
+PHI,"['MI', 'SU']"
+CHE,"['MI', 'DA']"
+GA,"['PHI', 'MI']"
+JO,"['GA', 'PHI', 'MI', 'SU', 'CHE', 'DA']"
+SA,"['GA', 'PHI', 'JO', 'SU', 'RA']"
+NI,"['SA', 'PHI', 'JO']"
+GE,"['SA', 'PHI', 'JO', 'NI', 'MI', 'CHE']"
+PA,"['SA', 'GE', 'JO', 'NI', 'RA']"
+GI,"['SA', 'PA', 'NI']"

@@ -1,0 +1,14 @@
+infectee,infectors
+ver,['SEED']
+flo,['ver']
+ind,"['flo', 'ver']"
+sos,"['flo', 'ind', 'ver']"
+gam,"['flo', 'ind', 'ver']"
+dra,"['flo', 'gam', 'ind', 'sos', 'ver']"
+moo,"['flo', 'gam', 'ind', 'dra', 'ver']"
+she,"['flo', 'gam', 'ind', 'moo', 'dra', 'sos', 'ver']"
+and,"['flo', 'gam', 'ind', 'moo', 'she', 'sos', 'ver', 'dra']"
+kwi,"['flo', 'and', 'gam', 'ind', 'dra', 'moo', 'she', 'sos', 'ver']"
+tsc,"['flo', 'and', 'gam', 'kwi', 'moo', 'she', 'sos', 'dra', 'ver']"
+sel,"['flo', 'and', 'gam', 'ind', 'kwi', 'moo', 'dra', 'she', 'tsc', 'ver', 'sos']"
+may,"['flo', 'and', 'ind', 'kwi', 'dra', 'moo', 'sel', 'she', 'tsc', 'ver', 'sos']"

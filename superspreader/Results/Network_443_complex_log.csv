@@ -1,0 +1,17 @@
+infectee,infectors
+Vt,['SEED']
+Vn,['Vt']
+Ba,"['Dl', 'Vt']"
+Pl,['Ba']
+Ku,"['Dl', 'Ba', 'Vt']"
+Ki,['Ku']
+Pi,"['Ba', 'Vt', 'Ku']"
+Pe,"['Dl', 'Pi', 'Ba', 'Ki', 'Vt', 'Ku', 'Pl']"
+Pk,"['Dl', 'Ba', 'Vt', 'Ku', 'Pe']"
+RK,"['Dl', 'Pi', 'Ba', 'Ku', 'Pe', 'Pk', 'Pl']"
+Wa,"['Dl', 'Pi', 'Ba', 'Ku', 'Pe', 'Pk', 'RK']"
+Bo,"['Ba', 'Wa']"
+Db,"['Dl', 'Ba', 'Bo', 'Ku', 'Pe', 'Pk', 'RK']"
+Vi,"['Dl', 'Ba', 'Wa', 'Db', 'Vn', 'Vt', 'Ku', 'Pe', 'Pk', 'RK']"
+Nw,"['Dl', 'Ba', 'Wa', 'Vi', 'Bo', 'Db', 'Vt', 'Ku', 'Pe', 'Pk', 'RK']"
+Ko,"['Vi', 'Ku', 'Nw']"

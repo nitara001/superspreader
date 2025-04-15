@@ -1,0 +1,13 @@
+infectee,infectors
+Riv,['SEED']
+Pot,['Riv']
+Voo,['Sep']
+Bam,['Sep']
+Yuk,"['Pot', 'Bam']"
+Pes,['Yuk']
+Rok,['Yuk']
+Nac,"['Riv', 'Yuk']"
+Tai,['Nac']
+Bol,"['Tai', 'Yuk', 'Sep']"
+Foe,"['Nac', 'Bol']"
+Goa,['Bol']

@@ -1,0 +1,18 @@
+infectee,infectors
+FN7,['SEED']
+MN14,"['FS2', 'FN7']"
+MS18,"['FS2', 'MN14']"
+MN11,"['FS2', 'FN7']"
+MN9,"['FS2', 'FN7', 'MN11']"
+FS3,"['FS2', 'FN7', 'MN9', 'MN14', 'MS18']"
+FS4,"['FS2', 'FS3', 'FN7', 'MN14']"
+MN10,"['FS2', 'FS3', 'FS4', 'FN7', 'MN14']"
+FN5,"['FS2', 'FS3', 'FS4', 'FN7', 'MN9', 'MN10', 'MN14', 'MS18']"
+MN13,"['FN5', 'MN11']"
+MN15,"['FS2', 'FS3', 'FS4', 'FN5', 'MN14']"
+MN12,"['FS2', 'FS4', 'MN9', 'MN15']"
+FS1,"['FS2', 'FS3', 'FS4', 'FN5', 'MN9', 'MN10', 'MN11', 'MN12', 'MN13', 'MN15']"
+MS16,"['FS1', 'FS2', 'FS3', 'FN5', 'MN9', 'MN10', 'MN11', 'MN12', 'MN14', 'MN15']"
+FN6,"['FS1', 'FS2', 'FS3', 'FS4', 'FN5', 'FN7', 'MN11', 'MN12', 'MN13']"
+MN8,"['FS1', 'FS2', 'FS3', 'FN5', 'MN10', 'MN12', 'MS16']"
+MN17,"['FS1', 'FS3', 'MN15', 'MS16']"

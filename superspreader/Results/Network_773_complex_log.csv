@@ -1,0 +1,14 @@
+infectee,infectors
+MS,['SEED']
+KB,['MS']
+LL,['MS']
+CS,"['LL', 'MS']"
+MK,"['KB', 'MS']"
+TR,"['CS', 'MS']"
+NB,['MK']
+PN,"['CS', 'MK', 'MS']"
+SB,['PN']
+BF,"['MK', 'NB', 'SB']"
+GU,"['BF', 'KB']"
+NW,"['GU', 'TR']"
+S#,"['BF', 'GU']"

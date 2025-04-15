@@ -1,0 +1,14 @@
+infectee,infectors
+URVM,['SEED']
+RMRR,['YMEZ']
+UMUY,['YMEZ']
+RMFV,"['YMEZ', 'RMRR']"
+GMWY,"['UMUY', 'RMFV', 'URVM', 'YMEZ', 'RMRR']"
+RMFR,"['GMWY', 'YMEZ', 'RMFV', 'UMUY', 'URVM', 'RMRR']"
+ZFRM,"['GMWY', 'YMEZ', 'RMFR', 'RMFV', 'URVM', 'RMRR']"
+VMRL,"['GMWY', 'YMEZ', 'RMFR', 'ZFRM', 'URVM']"
+EMWY,"['RMFR', 'VMRL', 'ZFRM', 'URVM']"
+ULRM,"['GMWY', 'YMEZ', 'EMWY', 'RMFR', 'VMRL', 'ZFRM', 'URVM']"
+RMVV,"['GMWY', 'YMEZ', 'ULRM', 'EMWY', 'RMFR', 'UMUY', 'VMRL', 'ZFRM', 'URVM']"
+RMBZ,"['GMWY', 'RMVV', 'ULRM', 'EMWY', 'RMFR', 'VMRL', 'ZFRM', 'URVM']"
+YMYE,"['RMVV', 'ULRM', 'RMBZ', 'EMWY', 'RMFR', 'VMRL', 'ZFRM', 'URVM']"

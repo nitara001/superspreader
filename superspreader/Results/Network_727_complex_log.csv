@@ -1,0 +1,11 @@
+infectee,infectors
+ip,['SEED']
+ps,"['ip', 'iz', 'oz']"
+gx,"['ip', 'iz', 'ps']"
+mp,"['ip', 'iz', 'ps', 'oz']"
+gm,"['ip', 'gx', 'iz', 'ps', 'mp', 'oz']"
+gv,"['gm', 'ip', 'gx']"
+kz,"['gm', 'ip', 'ps']"
+ak,"['gm', 'kz', 'gv', 'ip', 'gx', 'iz', 'mp', 'oz']"
+dw,"['gm', 'ak', 'kz', 'ip', 'ps', 'mp', 'oz']"
+ev,"['gm', 'ak', 'dw', 'kz', 'gv', 'ip', 'iz', 'ps', 'mp', 'oz']"

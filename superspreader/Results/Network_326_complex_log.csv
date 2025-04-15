@@ -1,0 +1,28 @@
+infectee,infectors
+OS,['SEED']
+OK,['OS']
+ED,"['OK', 'OS']"
+EC,"['ED', 'OM', 'OS']"
+OC,"['ED', 'EC']"
+OT,"['EC', 'OK', 'OS']"
+ES,"['EC', 'OM', 'OK', 'OT', 'OS']"
+EA,['ES']
+ET,"['ED', 'OM', 'OK', 'ES']"
+EU,"['EC', 'OM', 'OK', 'ET', 'OT', 'OS']"
+OH,"['EC', 'EU', 'ET', 'ES', 'OC']"
+OD,"['EC', 'EU', 'ET']"
+EX,"['ED', 'OK', 'OD', 'OS']"
+OP,"['ED', 'EX', 'EU', 'OM', 'OD']"
+EM,"['OK', 'OH', 'ED', 'EU', 'ET', 'OT', 'OP']"
+OU,"['EM', 'EX', 'ES', 'OD', 'OS', 'OP']"
+EL,"['OK', 'OH', 'OT', 'EU', 'OS', 'OP']"
+EP,"['EL', 'EU', 'OK', 'OH', 'OC', 'OT', 'OU', 'OS']"
+OO,"['EM', 'EL', 'EC', 'EX', 'EP', 'OM', 'OH']"
+OZ,"['EP', 'OU', 'OS']"
+OA,"['EC', 'EP', 'ES', 'OH', 'OZ', 'OU']"
+EK,"['EL', 'OO', 'OM', 'OD', 'OS', 'EP', 'OP']"
+EZ,"['EM', 'EL', 'OH', 'OD', 'OA', 'OO', 'OU']"
+EE,"['EK', 'OU']"
+OX,"['EL', 'EX', 'ES', 'OO', 'OD', 'OA', 'OU']"
+OL,"['EM', 'EL', 'EK', 'EZ', 'EU', 'ET', 'EP', 'OK', 'OH', 'OS']"
+EV,"['EL', 'EK', 'EX', 'EZ', 'OO', 'OL', 'OH', 'OX', 'OA', 'OU', 'EP']"

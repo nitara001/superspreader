@@ -1,0 +1,33 @@
+infectee,infectors
+YYYM,['SEED']
+RWR,['YYYM']
+GGG,['YYYM']
+RBR,"['RGRM', 'YWYM', 'YYYM']"
+GBG,"['YWYM', 'YYYM']"
+BGB,"['RGRM', 'YWYM']"
+WYWM,"['RBR', 'GWG', 'GBG']"
+GRG,['WYWM']
+GGGM,"['BGB', 'GWG', 'YGY']"
+GWGM,"['RBR', 'GWG', 'YGY', 'GRG']"
+WGW,"['WYWM', 'YWYM', 'YYYM']"
+YWY,"['GGGM', 'RGRM', 'WYWM', 'YYYM']"
+WGWM,"['YWY', 'GBG', 'WGW']"
+GRGM,"['BGB', 'YWY', 'GBG', 'GGG', 'WGW']"
+YYY,"['GRGM', 'WGWM', 'WYWM']"
+GYG,"['GRGM', 'RGRM']"
+BWBM,"['BGB', 'GYG', 'RBR']"
+RYR,"['BWBM', 'RGRM']"
+RWRM,"['GYG', 'RBR', 'RYR', 'YWY', 'GGG', 'GRG']"
+WWW,"['BWBM', 'GGGM', 'GRGM', 'RGRM', 'YYYM']"
+WRW,"['BWBM', 'GRGM', 'RGRM', 'RWRM']"
+BBB,"['GWGM', 'RWRM']"
+GYGM,"['RYR', 'WRW', 'WWW']"
+YGYM,"['GYG', 'WWW', 'YWY', 'WGW', 'BBB']"
+AAA,"['WGWM', 'YGYM']"
+YRYM,"['WRW', 'WWW', 'BBB', 'RWR']"
+WBW,"['GYGM', 'YRYM']"
+RGR,"['YGYM', 'YRYM']"
+WWWM,"['WWW', 'YYY', 'WBW']"
+YBY,"['GWGM', 'WWWM', 'YGYM']"
+WRWM,"['YBY', 'AAA']"
+BYB,['WWWM']

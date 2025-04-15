@@ -1,0 +1,18 @@
+infectee,infectors
+nnb,['SEED']
+nnr,['bnn']
+gnn,"['bnn', 'nnr', 'ngr', 'nnb']"
+nbn,"['gnn', 'ngr', 'nnb']"
+ngn,"['bnn', 'nnr', 'nbn', 'ngr']"
+nrg,"['bnn', 'gnn', 'ngn']"
+gnb,"['nnr', 'nrg', 'nbn', 'ngr', 'nnb', 'gnn']"
+ngb,"['bnn', 'gnb', 'gnn', 'ngn']"
+nbr,"['nnr', 'nrg', 'gnb', 'nnb', 'gnn']"
+nrn,"['bnn', 'nnr', 'nrg', 'gnb', 'nbn', 'ngb', 'nnb', 'gnn', 'nbr']"
+rnr,"['nnr', 'gnb', 'nrn', 'gnn']"
+nrr,"['nnr', 'nrg', 'gnb', 'ngb', 'ngr', 'nnb', 'nrn', 'gnn', 'nbr', 'ngn', 'rnr']"
+nng,"['bnn', 'nnr', 'nrg', 'gnb', 'nbn', 'ngb', 'gnn', 'ngn', 'nrr', 'rnr']"
+gnr,"['ngr', 'nng', 'nrn', 'nrr', 'gnn']"
+ngg,"['gnb', 'ngb', 'gnn', 'nbr', 'ngr', 'nng', 'rnr']"
+nbb,"['bnn', 'gnb', 'gnn', 'gnr', 'ngn', 'nnb', 'nrr', 'nbn', 'nbr', 'ngb', 'ngg', 'nng', 'nrg', 'nrn', 'rnr']"
+bnr,"['nbb', 'gnn', 'nbr', 'ngn', 'ngr', 'nng', 'nrn', 'rnr']"

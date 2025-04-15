@@ -1,0 +1,28 @@
+infectee,infectors
+nv,['SEED']
+ma,['nv']
+ed,['ma']
+wr,"['bd', 'ed']"
+pq,['ma']
+lh,"['bd', 'ma']"
+qo,"['lh', 'wr']"
+wb,"['lh', 'pq', 'wr']"
+cb,['wb']
+ov,"['nv', 'qo', 'wr']"
+xu,"['bd', 'ed', 'ov', 'qo', 'wb', 'wr']"
+ll,"['bd', 'ma', 'ov', 'pq', 'wb', 'wr', 'xu']"
+ct,"['lh', 'll', 'ma', 'pq', 'wr']"
+zk,"['nv', 'xu']"
+ws,"['ll', 'pq']"
+xb,"['nv', 'pq', 'zk']"
+gw,['xb']
+rc,"['ct', 'ws', 'xb']"
+lb,"['ct', 'll']"
+xd,['wb']
+jr,"['lb', 'lh', 'ov']"
+id,"['bd', 'jr', 'pq', 'xb']"
+nu,"['bd', 'id', 'll', 'pq', 'xd']"
+va,"['ct', 'jr', 'lb', 'll', 'xb']"
+qn,"['nu', 'va']"
+ev,['nu']
+ds,"['id', 'ov', 'va']"

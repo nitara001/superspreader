@@ -1,0 +1,29 @@
+infectee,infectors
+Budiur,['SEED']
+Lo18om,['Budiur']
+Addede,['Budiur']
+Chadha,['Addede']
+Thiahe,"['Addede', 'Chadha']"
+Caonam,['Thiahe']
+Togoog,"['Addede', 'Thiahe']"
+Voreol,"['Addede', 'Thiahe', 'Togoog']"
+Sh18he,"['Togoog', 'Voreol']"
+Mbmeba,"['Addede', 'Thiahe', 'Caonam', 'Voreol', 'Budiur', 'Sh18he', 'Mb19ba']"
+Br19ro,['Budiur']
+Th19he,"['Thiahe', 'Mbmeba']"
+Sineie,"['Addede', 'Thiahe', 'Chadha', 'Br19ro', 'Budiur', 'Caonam', 'Lo18om', 'Mbmeba', 'Sh18he', 'Th19he', 'Togoog']"
+Mawial,"['Addede', 'Chadha', 'Sineie', 'Togoog', 'Budiur', 'Sh18he', 'Voreol']"
+Zaiaam,"['Addede', 'Br19ro', 'Mawial', 'Mbmeba', 'Th19he', 'Togoog', 'Chadha', 'Sineie']"
+Nieyia,"['Addede', 'Thiahe', 'Zaiaam', 'Sineie', 'Budiur', 'Mawial', 'Voreol']"
+Hoerom,"['Thiahe', 'Sineie', 'Mbmeba']"
+Etiath,"['Addede', 'Sineie', 'Nieyia', 'Zaiaam', 'Thiahe', 'Mawial', 'Mbmeba', 'Togoog', 'Voreol']"
+Ad18de,"['Etiath', 'Addede', 'Zaiaam', 'Mawial']"
+Brtero,"['Etiath', 'Addede', 'Thiahe', 'Sineie', 'Budiur', 'Hoerom', 'Chadha', 'Nieyia', 'Zaiaam', 'Voreol', 'Mawial', 'Mbmeba', 'Br19ro']"
+Lomeom,"['Etiath', 'Addede', 'Thiahe', 'Brtero', 'Zaiaam', 'Budiur', 'Hoerom', 'Sineie', 'Mbmeba', 'Nieyia', 'Lo18om', 'Voreol']"
+Ni18ia,"['Etiath', 'Zaiaam', 'Nieyia', 'Budiur', 'Mawial']"
+Orllrw,"['Thiahe', 'Brtero', 'Zaiaam', 'Lomeom', 'Mawial']"
+CJJDJD,"['Etiath', 'Addede', 'Thiahe', 'Brtero', 'Lomeom', 'Sineie', 'Nieyia']"
+Waceal,"['Etiath', 'Thiahe', 'Brtero', 'Zaiaam', 'Mbmeba', 'Nieyia', 'Mawial']"
+Sheyhe,"['Etiath', 'Addede', 'Thiahe', 'Brtero', 'Lomeom', 'Budiur', 'CJJDJD', 'Hoerom', 'Mbmeba', 'Nieyia', 'Orllrw', 'Voreol', 'Sh18he', 'Waceal']"
+Faoyat,"['Etiath', 'Thiahe', 'Brtero', 'Zaiaam', 'Sheyhe', 'Mawial', 'Orllrw']"
+Tooyol,"['Etiath', 'Thiahe', 'Lomeom', 'Sheyhe', 'Sineie', 'Orllrw']"

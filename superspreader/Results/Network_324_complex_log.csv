@@ -1,0 +1,27 @@
+infectee,infectors
+XP,['SEED']
+CH,['XP']
+CM,['XP']
+CU,['XE']
+XM,"['CM', 'CU']"
+CA,['CH']
+CV,"['XM', 'CU', 'CH', 'CA']"
+CS,"['XM', 'CH', 'CM', 'XP']"
+XS,"['CU', 'CH', 'CS', 'XE']"
+CO,"['CA', 'XE', 'XS', 'XP', 'CV']"
+XU,"['CO', 'CA', 'XE', 'XS', 'CV']"
+CL,"['XU', 'CH', 'CO', 'CM', 'CS', 'XS', 'XP', 'XE']"
+XT,"['CU', 'CH']"
+CP,"['CS', 'XT']"
+CK,"['XU', 'CA', 'CL']"
+CE,"['XU', 'CO', 'CS', 'XT']"
+CD,"['CU', 'CM', 'CL', 'XT', 'CP']"
+XH,"['CU', 'XU', 'CO', 'CL', 'CD', 'XT']"
+XO,"['XH', 'CM', 'CL', 'CD', 'CS', 'XT']"
+XX,"['XM', 'CU', 'XH', 'CO', 'XO', 'CL', 'CD', 'CS', 'CV']"
+CT,"['XH', 'CH', 'XO', 'XT']"
+XV,"['CK', 'CH', 'CD', 'CP', 'CT']"
+CC,"['XM', 'CU', 'XU', 'CK', 'CO', 'CL', 'XX', 'XT', 'CS', 'XP', 'XV', 'CT']"
+XA,"['CU', 'CO', 'CL', 'CC', 'XX', 'XV']"
+CZ,"['XU', 'XH', 'CO', 'XO', 'CL', 'CD', 'XX', 'XS', 'XV']"
+XK,"['XO', 'CM', 'CL', 'CC', 'XA', 'CE', 'XX', 'XS']"

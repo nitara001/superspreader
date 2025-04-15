@@ -1,0 +1,30 @@
+infectee,infectors
+HU,['SEED']
+SD,['HU']
+SV,['HU']
+SP,['HH']
+ST,"['HU', 'HH', 'SD']"
+HT,"['HU', 'HH', 'ST']"
+HO,"['HT', 'HU', 'HH', 'ST']"
+SZ,"['HH', 'HO']"
+SK,"['HT', 'HU', 'HH', 'HO', 'SP', 'ST']"
+SM,"['HT', 'HU', 'SK']"
+HZ,"['ST', 'SM']"
+HX,"['HZ', 'SZ', 'SV', 'ST', 'SM']"
+SS,"['HX', 'HU']"
+HK,"['SS', 'ST', 'SK', 'HO']"
+HC,"['HK', 'HH', 'ST', 'SK']"
+HE,"['HZ', 'HK', 'HO', 'SZ', 'SS', 'SP', 'ST', 'SK', 'SD']"
+HA,"['HX', 'HH', 'HC', 'ST', 'SK']"
+SO,"['HU', 'HE', 'SD']"
+SA,"['HK', 'HH', 'HC', 'HA', 'HE', 'ST', 'SO']"
+SC,"['HC', 'HA', 'HE']"
+HP,"['SV', 'HT', 'SK', 'SM', 'SC', 'HE']"
+SE,"['HX', 'HK', 'HC', 'HA', 'SO', 'SA']"
+SL,"['HP', 'HK', 'HH', 'HC', 'HA', 'ST', 'SK', 'SA']"
+SU,"['HP', 'HU', 'HA', 'HE', 'SP']"
+HD,"['HP', 'HK', 'HH', 'HC', 'SL', 'SU', 'ST', 'SA', 'SE', 'HE']"
+HM,"['HP', 'SP', 'SU', 'SO', 'HD', 'SM', 'SL', 'HA', 'SE']"
+SX,"['HX', 'HP', 'HM', 'SP', 'SL', 'SE']"
+HL,"['HK', 'SP', 'SV', 'SU', 'SK', 'SE', 'SL', 'SC', 'SA', 'HD', 'HE']"
+HV,"['HP', 'SX', 'HL', 'SP', 'SU', 'HD', 'SM', 'HM', 'SE']"

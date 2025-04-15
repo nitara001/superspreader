@@ -1,0 +1,14 @@
+infectee,infectors
+Hn,['SEED']
+Dk,['Hn']
+Sh,['Dk']
+Er,['Dk']
+Kb,"['Dk', 'Er', 'Hn']"
+Su,"['Er', 'Kb', 'Hn', 'Mr']"
+Mg,['Su']
+Mn,"['Mg', 'Hn', 'Mr']"
+Mk,"['Dk', 'Su', 'Mn']"
+Sr,"['Mk', 'Su', 'Mn']"
+Ob,"['Mk', 'Dk', 'Mn']"
+Hr,"['Sr', 'Ob']"
+Be,"['Ob', 'Mk', 'Er']"

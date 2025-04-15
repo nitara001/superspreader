@@ -1,0 +1,25 @@
+infectee,infectors
+Ll,['SEED']
+3br,['Ll']
+"Yr
+","['3br', 'Ll']"
+Nr,"['3br', 'Ll', 'Yr\n']"
+Hl,"['3br', 'Ll', 'Nr', 'Yr\n']"
+Tr,"['3br', 'Ll', 'Nr', 'Hl', 'Yr\n']"
+Jl,"['3br', 'Ll', 'Tr', 'Nr', 'Hl', 'Yr\n']"
+3l,"['3br', 'Ll', 'Tr', 'Nr', 'Jl', 'Hl', 'Yr\n']"
+Ar,"['3br', 'Ll', 'Tr', 'Nr', 'Jl', 'Hl', '3l', 'Yr\n']"
+3bl,"['3br', 'Ll', 'Tr', 'Nr', 'Jl', 'Hl', '3l', 'Yr\n', 'Ar']"
+Al,"['3br', 'Ll', 'Tr', 'Nr', 'Jl', '3bl', 'Hl', '3l', 'Yr\n', 'Ar']"
+4l,"['3br', 'Ll', 'Tr', 'Nr', 'Jl', '3bl', 'Hl', '3l', 'Yr\n', 'Al', 'Ar']"
+1l,"['3br', 'Ll', 'Tr', 'Nr', 'Jl', '3bl', 'Hl', '3l', 'Yr\n', 'Al', '4l', 'Ar']"
+3r,"['3br', 'Ll', 'Tr', 'Nr', 'Jl', '3bl', 'Hl', '3l', '1l', 'Yr\n', 'Al', '4l', 'Ar']"
+Pl,"['3br', 'Ll', 'Tr', 'Nr', '3bl', '3r', 'Jl', 'Hl', '3l', '1l', 'Yr\n', 'Al', '4l', 'Ar']"
+6l,"['3br', 'Ll', 'Tr', 'Nr', 'Pl', '3r', 'Jl', '3bl', 'Hl', '3l', '1l', 'Yr\n', 'Al', '4l', 'Ar']"
+Tl,"['3br', 'Ll', 'Tr', 'Nr', 'Pl', '3r', 'Jl', '3bl', 'Hl', '3l', '1l', '6l', 'Yr\n', 'Al', '4l', 'Ar']"
+Nl,"['3br', 'Ll', 'Tr', 'Tl', 'Nr', 'Pl', '3r', 'Jl', '3bl', 'Hl', '3l', '1l', '6l', 'Yr\n', 'Al', '4l', 'Ar']"
+7r,"['3br', 'Nl', 'Ll', 'Tr', 'Tl', 'Nr', 'Pl', '3r', 'Jl', '3bl', 'Hl', '3l', '1l', '6l', 'Yr\n', 'Al', '4l', 'Ar']"
+Kr,"['3br', 'Nl', 'Ll', 'Tr', 'Tl', '7r', 'Nr', 'Pl', '3r', 'Jl', '3bl', 'Hl', '3l', '1l', '6l', 'Yr\n', 'Al', '4l', 'Ar']"
+1bl,"['3br', 'Nl', 'Ll', 'Tr', 'Tl', '7r', 'Nr', 'Pl', '3r', 'Jl', '3bl', 'Hl', '3l', '1l', '6l', 'Kr', 'Yr\n', 'Al', '4l', 'Ar']"
+Fr,"['3br', 'Nl', 'Ll', 'Tr', 'Tl', '7r', 'Nr', 'Pl', '3r', 'Jl', '3bl', 'Hl', '3l', '1bl', '1l', '6l', 'Kr', 'Yr\n', 'Al', '4l', 'Ar']"
+Dl,"['3br', 'Nl', 'Ll', 'Tr', 'Tl', '7r', 'Nr', 'Pl', 'Fr', '3r', 'Jl', '3bl', 'Hl', '3l', '1bl', '1l', '6l', 'Kr', 'Yr\n', 'Al', '4l', 'Ar']"

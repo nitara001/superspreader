@@ -1,0 +1,13 @@
+infectee,infectors
+Jul,['SEED']
+Kal,['Jul']
+Elo,"['Jul', 'Kal']"
+Bou,"['Jul', 'Elo', 'Kal']"
+Gem,"['Bou', 'Elo', 'Kal']"
+Mar,"['Bou', 'Elo', 'Kal', 'Gem', 'Jul']"
+Fan,"['Mar', 'Jul', 'Bou', 'Elo', 'Kal']"
+Dil,"['Mar', 'Jul', 'Bou', 'Elo', 'Gem', 'Kal', 'Fan']"
+Dai,"['Mar', 'Jul', 'Dil', 'Elo', 'Gem', 'Kal', 'Fan']"
+Lil,"['Elo', 'Dil', 'Gem', 'Fan', 'Jul']"
+Veo,"['Mar', 'Jul', 'Dil', 'Bou', 'Elo', 'Gem', 'Kal', 'Dai', 'Fan']"
+Ver,"['Lil', 'Mar', 'Jul', 'Dil', 'Veo', 'Bou', 'Gem']"

@@ -1,0 +1,7 @@
+time,infector,infectee,run_id
+0.0,,SIM,1
+0.0,,MOR,2
+0.27664923019727905,MOR,GAS,2
+0.0,,ISO,3
+0.0,,TRU,4
+0.0,,TRU,5

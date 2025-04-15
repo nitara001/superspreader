@@ -1,0 +1,15 @@
+infectee,infectors
+GMOE,['SEED']
+GMOB,"['GMFY', 'GMOE']"
+GMYV,"['GMOB', 'GMOE', 'GMFY']"
+VVGM,"['GMYV', 'GMOB', 'GMOE', 'GMFY']"
+GMWO,"['GMYV', 'VVGM', 'GMOB', 'GMOE', 'GMFY']"
+GMYB,"['GMYV', 'VVGM', 'GMOB', 'GMWO', 'GMFY']"
+GMBY,"['GMOB', 'GMWO', 'GMYB']"
+GMUY,"['GMBY', 'GMWO']"
+GMWR,"['GMYV', 'GMOB', 'GMYB', 'GMWO', 'GMFY', 'VVGM']"
+GMWY,"['GMWR', 'GMWO', 'GMYB']"
+BMWR,"['GMYV', 'GMWR', 'GMYB', 'GMWO']"
+GMYY,"['GMWY', 'GMYV', 'GMBY', 'GMUY', 'GMWR', 'GMOB', 'VVGM', 'GMOE', 'GMYB', 'GMWO', 'GMFY', 'BMWR']"
+GMWO ,"['GMYV', 'GMWR', 'GMYY', 'BMWR', 'GMYB']"
+GMRY,"['GMWY', 'GMYV', 'GMBY', 'GMUY', 'GMWR', 'GMYY', 'GMWO ', 'BMWR', 'GMYB', 'GMWO']"

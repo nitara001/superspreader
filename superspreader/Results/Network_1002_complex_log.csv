@@ -1,0 +1,17 @@
+infectee,infectors
+bz,['SEED']
+by,['bz']
+il,"['by', 'bz']"
+mw,"['by', 'bz', 'il']"
+gv,"['by', 'bz', 'il', 'mw']"
+qr,"['by', 'bz', 'gv', 'il', 'mw']"
+oh,"['by', 'bz', 'gv', 'il', 'mw', 'qr']"
+ks,"['by', 'bz', 'gv', 'il', 'mw', 'oh', 'qr']"
+dv,"['by', 'bz', 'gv', 'il', 'ks', 'mw', 'oh', 'qr']"
+qa,"['by', 'bz', 'dv', 'gv', 'il', 'ks', 'mw', 'oh', 'qr']"
+zb,"['by', 'bz', 'dv', 'gv', 'il', 'ks', 'mw', 'oh', 'qa', 'qr']"
+xt,"['by', 'bz', 'dv', 'gv', 'il', 'ks', 'mw', 'oh', 'qa', 'qr', 'zb']"
+dc,"['by', 'bz', 'dv', 'gv', 'il', 'ks', 'mw', 'oh', 'qa', 'qr', 'xt', 'zb']"
+sq,"['by', 'bz', 'dc', 'dv', 'gv', 'il', 'mw', 'oh', 'qa', 'qr', 'xt', 'zb']"
+vd,"['by', 'bz', 'dc', 'dv', 'gv', 'il', 'ks', 'mw', 'oh', 'qa', 'qr', 'sq', 'xt', 'zb']"
+oo,"['by', 'bz', 'dv', 'gv', 'il', 'ks', 'mw', 'oh', 'qa', 'qr', 'sq', 'vd', 'xt', 'zb']"

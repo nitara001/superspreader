@@ -1,0 +1,17 @@
+infectee,infectors
+LOB,['SEED']
+DGO,['LOB']
+R,"['LOB', 'DGO']"
+YV,"['LOB', 'R']"
+V,"['YV', 'R', 'LOB', 'DGO']"
+OLG,"['YV', 'V', 'R', 'LOB']"
+DG,"['YV', 'V', 'R', 'LOB', 'DGO', 'OLG']"
+W,"['YV', 'DG', 'V', 'R', 'LOB', 'DGO']"
+B,"['YV', 'DG', 'V', 'W', 'R', 'LOB', 'DGO', 'OLG']"
+P,"['YV', 'DG', 'V', 'B', 'R', 'LOB', 'W', 'DGO', 'OLG']"
+YVV,"['DG', 'P', 'V', 'W', 'R', 'B', 'LOB', 'DGO']"
+O,"['YV', 'DG', 'P', 'V', 'B', 'LOB', 'W', 'R', 'YVV', 'DGO']"
+LO,"['YV', 'DG', 'P', 'V', 'O', 'W', 'R', 'B']"
+WB,"['YV', 'DG', 'P', 'V', 'O', 'R', 'B', 'LOB', 'OLG']"
+LG,"['YV', 'DG', 'P', 'V', 'R', 'LOB', 'B', 'O', 'W', 'YVV', 'WB', 'OLG', 'LO']"
+LOBB,"['LG', 'YV', 'DG', 'P', 'V', 'O', 'W', 'R', 'B']"

@@ -1,0 +1,30 @@
+infectee,infectors
+ZT,['SEED']
+AX,['ZT']
+ZV,['ZC']
+ZU,['AX']
+AL,"['ZC', 'ZT', 'ZU', 'ZV']"
+AH,"['AX', 'ZC', 'ZU', 'ZT']"
+AV,"['AL', 'ZC', 'ZU', 'ZV']"
+ZZ,"['AX', 'AH', 'AL', 'ZC', 'AV', 'ZU', 'ZV']"
+AP,"['AL', 'ZZ', 'AV']"
+ZE,"['AX', 'AH', 'ZC', 'ZU', 'ZT']"
+AO,"['AH', 'ZE', 'ZC', 'AP', 'ZT', 'ZU', 'ZV']"
+ZO,"['AX', 'AH', 'AL', 'AO', 'AP', 'ZZ', 'ZE', 'ZU']"
+ZM,['AO']
+AT,"['AX', 'ZE', 'AO', 'ZZ', 'ZU', 'ZT']"
+ZX,"['AX', 'AH', 'ZE', 'AO', 'ZC', 'AP', 'AV', 'ZU', 'ZV']"
+AA,"['ZO', 'ZE', 'AL', 'ZC', 'AT', 'AV', 'ZT', 'ZX', 'ZV']"
+AD,"['AA', 'ZO', 'ZE', 'AL', 'ZC', 'AV', 'ZT', 'ZU', 'ZX']"
+ZP,"['AX', 'AA', 'AD', 'AP', 'AT']"
+ZL,"['ZU', 'ZE', 'ZO', 'AD', 'AH', 'AL', 'AO', 'ZC', 'AP', 'ZX', 'AT', 'AV', 'AX']"
+AK,"['ZL', 'AX', 'AD', 'ZX', 'AL', 'AO', 'ZC', 'AT', 'ZZ', 'ZU', 'ZT', 'ZP']"
+AM,"['ZL', 'AH', 'AA', 'ZO', 'AD', 'ZE', 'AK', 'AO', 'ZC', 'ZX', 'ZT', 'ZU', 'ZP']"
+ZD,"['ZL', 'AX', 'AH', 'AA', 'AK', 'AL', 'AO', 'AP', 'AV']"
+AE,"['ZL', 'AX', 'ZM', 'ZO', 'AD', 'ZD', 'AH', 'AK', 'AL', 'AO', 'ZC', 'ZX', 'AT', 'AV', 'ZE', 'ZU']"
+ZK,"['AD', 'ZD', 'AP']"
+AC,"['AE', 'AK', 'ZX', 'ZV']"
+AS,"['ZL', 'AE', 'ZO', 'ZE', 'ZX', 'AT', 'ZZ', 'ZT', 'ZV']"
+ZS,"['ZL', 'AX', 'AE', 'AH', 'ZO', 'AD', 'ZE', 'AL', 'AO', 'AS', 'ZZ', 'AV', 'ZU']"
+ZH,"['ZL', 'AX', 'AE', 'AA', 'AC', 'ZO', 'AK', 'AM', 'ZX', 'AS', 'AT', 'ZV', 'ZS']"
+AU,"['ZL', 'AA', 'AC', 'ZO', 'ZH', 'AD', 'ZD', 'ZE', 'AK', 'AO', 'ZC', 'AP', 'ZX', 'ZZ', 'AV', 'ZT', 'ZU', 'ZP']"

@@ -1,0 +1,66 @@
+infectee,infectors
+nina,['SEED']
+0.285714286,['nina']
+0.222222222,['gerard']
+0.142857143,['gerard']
+noel,['0.142857143']
+0.5,['mary']
+girly,"['0.142857143', '0.5']"
+0.090909091,"['gerard', 'girly']"
+bob,['0.142857143']
+brandon,"['0.142857143', '0.8', '0.090909091']"
+0.666666667,['doug']
+littlejane,['0.666666667']
+0.083333333,"['dolly', 'donna']"
+0.0625,['donna']
+masya,['0.5']
+gonzaga,['0.222222222']
+0.25,"['dolly', 'dora', 'masya']"
+violet,['0.25']
+pan,['0.25']
+0.0,"['bob', 'brandon', 'gerard', 'girly', 'gonzaga', 'dolly', 'donna', 'dora', 'doug', 'littlejane', 'mary', 'masya', 'nina', 'noel', 'pan']"
+littlejenkins,['0.0']
+tess,['0.0']
+pal,['0.0']
+coco,['0.0']
+lionel,"['0.0', '0.25']"
+maggie,"['0.0', '0.083333333']"
+littlejudy,['0.0']
+innocentia,['0.0']
+booboo,"['0.0', '0.285714286']"
+bj,"['0.0', '0.083333333', '0.222222222']"
+trixie,['0.0']
+renata,['0.0']
+taylor,['0.0']
+ilse,"['0.0', '0.25']"
+0.076923077,"['bj', 'ilse']"
+daisy,['0.0']
+0.111111111,"['ilse', 'lionel', 'dora', 'doug']"
+moyo,['0.0']
+goliath,"['0.0', '0.111111111']"
+josephine,['0.0']
+rusty,['0.0']
+0.166666667,"['goliath', 'innocentia', 'coco', 'dolly', 'doug', 'moyo']"
+tara,['0.0']
+mike,"['0.0', '0.142857143', '0.090909091', '0.166666667']"
+0.9,['maggie']
+debbie,"['0.0', '0.166666667']"
+0.2,"['booboo', 'brandon', 'gonzaga', 'debbie', 'dora', 'mike']"
+0.4,"['bj', 'bob', 'booboo', 'renata', 'dolly', 'mike']"
+genny,"['0.0', '0.2', '0.428571429', '0.111111111']"
+darwin,"['0.0', '0.2']"
+0.125,"['bj', 'genny', 'gerard', 'littlejudy', 'mike']"
+pippa,"['0.0', '0.125']"
+0.6,"['genny', 'goliath']"
+0.333333333,"['genny', 'daisy', 'darwin', 'dora']"
+0.1,"['genny', 'girly', 'josephine', 'pippa']"
+regina,"['0.0', '0.1']"
+brenda,"['0.0', '0.1']"
+0.1875,['brenda']
+diana,"['0.0', '0.2']"
+1.0,"['regina', 'debbie', 'taylor']"
+rita,"['0.0', '0.333333333']"
+0.071428571,['regina']
+0.75,['diana']
+0.066666667,"['brenda', 'maggie']"
+ingrid,"['0.0', '0.125', '0.066666667', '0.333333333', '0.166666667']"

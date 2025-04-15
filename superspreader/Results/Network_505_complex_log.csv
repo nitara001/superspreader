@@ -1,0 +1,22 @@
+infectee,infectors
+countess,['SEED']
+fuschia,['countess']
+cerce,['countess']
+veronica,"['cerce', 'fuschia', 'countess']"
+speedster,"['veronica', 'cerce', 'countess']"
+dot,"['veronica', 'cerce', 'speedster', 'countess']"
+flapper,"['veronica', 'cerce', 'speedster', 'countess', 'dot']"
+gelfing,['flapper']
+thecount,"['veronica', 'cerce', 'flapper', 'countess']"
+vampirella,"['veronica', 'cerce', 'gelfing', 'countess']"
+maribelo,"['cerce', 'vampirella']"
+count,['vampirella']
+mina,"['veronica', 'cerce', 'thecount', 'speedster', 'flapper', 'countess', 'dot']"
+mya,"['veronica', 'cerce', 'vampirella', 'speedster', 'mina', 'countess']"
+helsing,"['mya', 'countess']"
+lucy,"['veronica', 'cerce', 'vampirella', 'speedster', 'helsing', 'flapper', 'maribelo', 'mina', 'mya', 'countess', 'dot']"
+vlad,['lucy']
+lucy ,['mya']
+streblick,['mya']
+bella,"['veronica', 'cerce', 'vampirella', 'thecount', 'helsing', 'flapper', 'lucy', 'fuschia', 'maribelo', 'mina', 'mya', 'countess', 'dot']"
+gomez,['bella']

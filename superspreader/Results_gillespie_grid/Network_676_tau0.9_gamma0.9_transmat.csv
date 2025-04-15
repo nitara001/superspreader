@@ -1,0 +1,8 @@
+time,infector,infectee,run_id
+0.0,,MOL,1
+0.0,,SIR,2
+0.0,,GIN,3
+0.0,,PIP,4
+0.018006403442551118,PIP,MOR,4
+0.5690478721750433,MOR,GAS,4
+0.0,,PTE,5

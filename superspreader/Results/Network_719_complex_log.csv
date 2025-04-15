@@ -1,0 +1,14 @@
+infectee,infectors
+UNM2M,['SEED']
+F3,['UNM3M']
+15M,['F3']
+M1M,['F3']
+10M,['F3']
+F2,"['15M', '10M', 'UNM2M']"
+17M,['F2']
+UNM4M,['F3']
+30M,['F2']
+F1,"['M1M', '30M']"
+14M,['F1']
+UNM1M,['F1']
+M2M,['F1']

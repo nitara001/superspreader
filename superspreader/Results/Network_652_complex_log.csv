@@ -1,0 +1,59 @@
+infectee,infectors
+UMVL,['SEED']
+FMVW,['VMVW']
+UMRO,"['FMBV', 'FMLW']"
+FMBL,['FMLW']
+VMYW,['YOFM']
+FMOY,"['YOFM', 'VMWL', 'UMVL', 'VMYW']"
+VMZZ,"['YOFM', 'FMOY', 'VMYW', 'VMVW']"
+UMYO,"['VMVW', 'VMZZ', 'FMVW']"
+FMLL,['FMOY']
+VMVY,['UMYO']
+VMZU,"['YOFM', 'FMOY', 'UMVL', 'VMVW', 'VMZZ', 'UMYO', 'FMLL']"
+UMPP,"['YOFM', 'VMZU']"
+FMZY,"['FMBV', 'UMRO']"
+UMWW,"['VMZU', 'UMPP', 'YOFM']"
+UMOE,"['FMOY', 'UMYO', 'VMZZ']"
+VMPB,"['FMBV', 'UMRO', 'FMZY']"
+VMRE,['FMZY']
+FMVV,['VMPB']
+WWFM,['UMOE']
+YWFM,"['FMOY', 'UMOE']"
+VMWZ,"['VMWL', 'UMRO', 'UMOE', 'FMOY', 'YWFM']"
+VMYL,"['VMWZ', 'FMOY']"
+WPXX,"['VMWZ', 'UMRO']"
+VMOZ,"['VMWZ', 'FMOY', 'UMOE', 'YWFM']"
+VMUU,"['UMWW', 'VMYL', 'VMWZ', 'VMWL', 'FMOY', 'UMPP']"
+VMEV,"['VMWZ', 'FMOY']"
+FMUU,"['VMUU', 'VMEV']"
+UMUV,['VMUU']
+VMPO,"['FMUU', 'VMUU', 'VMEV']"
+VMYO,"['FMUU', 'VMEV', 'VMPO']"
+VMLZ,"['VMYL', 'VMWZ', 'FMOY', 'VMUU', 'UMOE', 'VMOZ', 'YWFM']"
+VMZR,"['WPXX', 'VMWZ', 'VMLZ', 'UMRO', 'FMLW']"
+VMLB,"['VMZR', 'VMLZ']"
+VMVE,"['FMBV', 'VMLB', 'VMLZ', 'UMRO', 'FMZY', 'VMRE', 'VMPB', 'VMZR']"
+UMRW,"['FMBV', 'VMLB', 'VMLZ', 'VMVE', 'VMZR']"
+VMOB,['VMVE']
+VMWE,"['VMVE', 'VMZR']"
+VMYB,"['VMLB', 'VMWE', 'VMVE', 'VMZR', 'VMLZ', 'UMRW']"
+VMWB,"['VMYB', 'FMZY', 'VMZL', 'VMVE', 'VMPB']"
+YRFM,"['VMYB', 'VMLB', 'VMWB', 'VMWE', 'VMLZ', 'VMVE', 'VMZR', 'UMRW']"
+WUMU,"['VMYB', 'VMLB', 'VMLZ', 'YRFM', 'UMRW', 'VMVE', 'VMZR']"
+WZVM,['VMWB']
+UWUM,"['VMYB', 'VMWB', 'YRFM']"
+VMPE,"['VMYB', 'VMWB', 'UWUM', 'YRFM']"
+ZEVM,"['VMWB', 'WZVM', 'VMVE']"
+YYFM,"['VMVE', 'ZEVM']"
+VMPW,"['VMYB', 'VMLB', 'VMLZ', 'YRFM', 'UMRW', 'WUMU', 'VMVE', 'VMZR']"
+MVLE,"['YYFM', 'VMVE', 'ZEVM']"
+YYVM,"['VMVE', 'YYFM', 'ZEVM', 'MVLE']"
+ZYVM,['VMVE']
+VMZV,"['ZYVM', 'VMZU']"
+FMLZ,"['ZYVM', 'FMLW', 'VMZV']"
+VMPY,"['ZYVM', 'FMLZ', 'VMZV']"
+FMZF,"['FMLW', 'FMLZ']"
+YVFM,"['FMZF', 'FMLW', 'FMLZ']"
+GGFM,"['ZYVM', 'VMPY', 'FMLZ', 'VMZV']"
+VMZO,['GGFM']
+VMVZ,['YVFM']

@@ -1,0 +1,30 @@
+infectee,infectors
+Dr,['SEED']
+Me,['Dr']
+Pr,['Dr']
+Zi,"['Pr', 'Dr', 'Me']"
+Yo,"['Me', 'Zi', 'Dr']"
+Ok,"['Pr', 'Yo', 'Zi']"
+"Ta
+","['Ok', 'Zi', 'Yo', 'Dr']"
+Nt,"['Yo', 'Me', 'Zi']"
+We,"['Pr', 'Nt', 'Yo', 'Dr', 'Me']"
+Ka,"['Pr', 'Nt', 'Ta\n', 'We', 'Yo', 'Dr', 'Me', 'Ok', 'Zi']"
+Bo,"['Pr', 'Nt', 'We', 'Dr', 'Me', 'Ka', 'Zi']"
+Mo,"['Pr', 'Nt', 'We', 'Bo', 'Me', 'Ka']"
+Em,"['Nt', 'Ta\n', 'We', 'Yo', 'Bo', 'Dr', 'Me', 'Ka', 'Ok', 'Mo', 'Zi']"
+Ti,"['We', 'Mo', 'Bo', 'Ka', 'Nt']"
+Gi,"['Nt', 'Ta\n', 'Yo', 'Dr', 'Me', 'Em']"
+Ha,"['Ti', 'Nt', 'We', 'Yo', 'Bo', 'Em', 'Me', 'Ok', 'Dr', 'Ka']"
+Kw,"['Bo', 'Dr', 'Ka', 'Ok', 'Mo', 'Gi']"
+Tt,"['Pr', 'Ka', 'Ok', 'Yo', 'Dr', 'Gi']"
+Ro,"['Pr', 'Tt', 'Ti', 'Nt', 'Ta\n', 'We', 'Yo', 'Bo', 'Ha', 'Dr', 'Ok', 'Mo', 'Kw', 'Em', 'Gi']"
+Ja,"['Pr', 'Ti', 'Ro', 'Nt', 'We', 'Bo', 'Ha', 'Dr', 'Me', 'Ka', 'Mo', 'Kw', 'Zi', 'Em']"
+Ep,"['Pr', 'Ti', 'Nt', 'Ta\n', 'Yo', 'Ha', 'Dr', 'Me', 'Ka', 'Ok', 'Mo', 'Zi', 'Em', 'Ja', 'Gi']"
+Fa,"['Pr', 'Ro', 'We', 'Yo', 'Kw', 'Zi']"
+Sa,"['Pr', 'Tt', 'Ti', 'Ro', 'Nt', 'We', 'Fa', 'Ha', 'Dr', 'Me', 'Ka', 'Mo', 'Em', 'Ep', 'Gi']"
+Ch,"['Pr', 'Tt', 'Ro', 'Nt', 'We', 'Bo', 'Ha', 'Ka', 'Sa', 'Zi', 'Em', 'Ep', 'Ja']"
+Li,"['Pr', 'Tt', 'Ti', 'Ro', 'Nt', 'Ta\n', 'We', 'Yo', 'Fa', 'Ha', 'Dr', 'Ja', 'Me', 'Ka', 'Ok', 'Mo', 'Kw', 'Sa', 'Em', 'Ch', 'Ep', 'Gi']"
+Ki,"['Tt', 'Ro', 'Ta\n', 'Fa', 'Ha', 'Dr', 'Ep', 'Gi', 'Sa', 'Ja']"
+Ve,"['Pr', 'Tt', 'Li', 'Ro', 'Nt', 'Bo', 'Fa', 'Ki', 'Me', 'Mo', 'Kw', 'Sa', 'Em']"
+Vz,"['Pr', 'Li', 'Ro', 'Nt', 'We', 'Yo', 'Bo', 'Dr', 'Ka', 'Ok', 'Kw', 'Em', 'Ch', 'Ja', 'Ep', 'Gi']"

@@ -1,0 +1,22 @@
+infectee,infectors
+grb	,['SEED']
+oon	,['grb\t']
+brr	,"['grb\t', 'oon\t']"
+bgn	,['oon\t']
+nbg	,"['grb\t', 'bgn\t', 'oon\t', 'brr\t']"
+rrr	,"['oon\t', 'nbg\t']"
+gbb	,"['grb\t', 'bgn\t', 'brr\t', 'oon\t', 'nbg\t', 'rrr\t']"
+brn	,"['gbb\t', 'oon\t', 'brr\t', 'rrr\t', 'nbg\t']"
+rgn	,"['grb\t', 'gbb\t', 'brr\t', 'brn\t']"
+rbr	,"['grb\t', 'oon\t', 'brn\t', 'nbg\t', 'rgn\t']"
+ggg	,"['grb\t', 'bgn\t', 'gbb\t', 'brn\t', 'brr\t', 'oon\t', 'nbg\t', 'rbr\t', 'rrr\t']"
+rng	,"['brn\t', 'brr\t', 'gbb\t', 'ggg\t', 'nbg\t', 'oon\t', 'rbr\t', 'rgn\t', 'rrr\t']"
+grr	,"['grb\t', 'brn\t', 'gbb\t', 'ggg\t', 'rng\t', 'nbg\t', 'oon\t', 'rrr\t']"
+grg	,"['grb\t', 'brn\t', 'brr\t', 'gbb\t', 'ggg\t', 'grr\t', 'rng\t', 'nbg\t', 'oon\t']"
+bng	,"['grb\t', 'grg\t', 'grr\t', 'bgn\t', 'ggg\t', 'oon\t', 'nbg\t', 'rrr\t']"
+rnb	,"['grg\t', 'grr\t', 'bng\t', 'gbb\t', 'ggg\t', 'oon\t', 'rgn\t', 'rng\t']"
+nrb	,"['grb\t', 'grg\t', 'grr\t', 'rnb\t', 'rng\t', 'bgn\t', 'bng\t', 'gbb\t', 'ggg\t', 'nbg\t', 'oon\t', 'rrr\t']"
+bbb	,"['grb\t', 'grg\t', 'grr\t', 'rnb\t', 'rng\t', 'bgn\t', 'bng\t', 'brr\t', 'nbg\t', 'nrb\t', 'rrr\t']"
+ryn	,"['bbb\t', 'bng\t', 'gbb\t', 'nrb\t', 'oon\t', 'brr\t', 'brn\t', 'nbg\t']"
+bgr	,"['bbb\t', 'bgn\t', 'brr\t', 'oon\t', 'rbr\t', 'rgn\t', 'rng\t', 'rrr\t', 'bng\t', 'brn\t', 'nbg\t', 'nrb\t', 'rnb\t', 'ryn\t']"
+gpn	,"['bbb\t', 'ggg\t', 'grr\t', 'rbr\t', 'rnb\t']"

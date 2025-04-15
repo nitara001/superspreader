@@ -1,0 +1,12 @@
+infectee,infectors
+BMVY,['SEED']
+BMRY,['BMZF']
+BMRV,"['BMRY', 'BMZF']"
+LWBM,"['BMRY', 'BMRV', 'BMVY', 'BMZF']"
+WRCM,"['BMRY', 'BMRV', 'BMZF', 'LWBM']"
+BMRR,"['BMRV', 'BMVY', 'BMZF', 'LWBM', 'WRCM']"
+MUWU,"['BMRV', 'BMRR', 'WRCM']"
+BMVV,"['BMRR', 'BMVY', 'MUWU', 'WRCM']"
+BMWY,"['BMRY', 'BMRV', 'BMRR', 'MUWU', 'BMZF', 'BMVV', 'LWBM', 'WRCM']"
+BMWR,"['BMVY', 'MUWU', 'WRCM', 'BMVV']"
+BMZZ,['MUWU']

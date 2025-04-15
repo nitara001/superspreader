@@ -1,0 +1,14 @@
+infectee,infectors
+CS,['SEED']
+LL,['CS']
+GU,"['CS', 'LL']"
+NW,"['CS', 'GU', 'LL']"
+S#,"['CS', 'GU', 'LL', 'NW']"
+BF,"['CS', 'GU', 'LL', 'NW', 'S#']"
+TR,"['BF', 'CS', 'GU', 'LL', 'NW', 'S#']"
+SB,"['BF', 'CS', 'GU', 'LL', 'NW', 'S#', 'TR']"
+NB,"['BF', 'CS', 'GU', 'LL', 'NW', 'SB', 'S#', 'TR']"
+MS,"['BF', 'CS', 'GU', 'LL', 'NB', 'NW', 'SB', 'S#', 'TR']"
+KB,"['BF', 'CS', 'GU', 'LL', 'MS', 'NB', 'NW', 'SB', 'S#', 'TR']"
+MK,"['BF', 'CS', 'GU', 'KB', 'LL', 'MS', 'NB', 'NW', 'SB', 'S#', 'TR']"
+PN,"['BF', 'CS', 'GU', 'KB', 'LL', 'MK', 'MS', 'NB', 'NW', 'SB', 'S#', 'TR']"
