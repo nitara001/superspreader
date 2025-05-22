@@ -7,6 +7,7 @@ import random
 from joblib import Parallel, delayed
 from networkx.algorithms.community import greedy_modularity_communities
 import matplotlib.pyplot as plt
+random.seed(61)
 
 # function to filter networks to get strong edges only
 def extract_strong_edges(G):
@@ -40,8 +41,8 @@ def run_simulation(args):
     return df_trans, df_series
 
 if __name__ == "__main__":
-    graph_dir = r"/Users/nitarawijayatilake/Documents/PhD/asnr/Networks"
-    output_dir = r"/Users/nitarawijayatilake/Documents/PhD/superspreader/superspreader/Results_gillespie_grid4"
+    graph_dir = r"C:\Users\s2607536\Documents\asnr_2025\Networks"
+    output_dir = r"C:\Users\s2607536\Documents\superspreader\superspreader\Results2025"
     os.makedirs(output_dir, exist_ok=True)
 
     graphs = {} 
@@ -62,11 +63,11 @@ if __name__ == "__main__":
                     except:
                         print(f"{file} has non-numeric weights, skipping")
 
-    tau_vals = [0.2, 0.8]
-    gamma = 0.1
-    n_reps = 2
+    tau_vals = [0.1, 0.5, 0.8]
+    gamma_vals = [0.1, 0.5]
+    n_reps = 1000
 
-    for name in list(graphs.keys())[:1]: 
+    for name in list(graphs.keys()): 
         base = os.path.splitext(name)[0]
         for version, graph in {"full": graphs[name], "strong": strong_graphs.get(name)}.items():
             if graph is None or graph.number_of_edges() == 0:
@@ -107,17 +108,18 @@ if __name__ == "__main__":
             pd.DataFrame.from_records(records).to_csv(
                 os.path.join(output_dir, f"{suffix}_node_and_network_stats.csv"), index=False)
 
-            for tau in tau_vals: 
-                prefix = f"{suffix}_tau{tau}"
-                args_list = [(G_version, tau, gamma, run_id) for run_id in range(1, n_reps + 1)]
+            for tau in tau_vals:
+                for gamma in gamma_vals:
+                    prefix = f"{suffix}_tau{tau}_gamma{gamma}"
+                    args_list = [(G_version, tau, gamma, run_id) for run_id in range(1, n_reps + 1)]
 
-                results_parallel = Parallel(n_jobs=-1, backend="loky")(
-                    delayed(run_simulation)(args) for args in args_list
-                )
+                    results_parallel = Parallel(n_jobs=-1, backend="loky")(
+                        delayed(run_simulation)(args) for args in args_list
+                    )
 
-                all_transmats, all_series = zip(*results_parallel)
+                    all_transmats, all_series = zip(*results_parallel)
 
-                pd.concat(all_transmats).to_csv(
-                    os.path.join(output_dir, f"{prefix}_transmat.csv"), index=False)
-                pd.concat(all_series).to_csv(
-                    os.path.join(output_dir, f"{prefix}_series.csv"), index=False)
+                    pd.concat(all_transmats).to_csv(
+                        os.path.join(output_dir, f"{prefix}_transmat.csv"), index=False)
+                    pd.concat(all_series).to_csv(
+                        os.path.join(output_dir, f"{prefix}_series.csv"), index=False)
