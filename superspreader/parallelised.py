@@ -63,11 +63,11 @@ if __name__ == "__main__":
                     except:
                         print(f"{file} has non-numeric weights, skipping")
 
-    tau_vals = [0.1, 0.5, 0.8]
-    gamma_vals = [0.1, 0.5]
-    n_reps = 2
+    tau_vals = [0.05, 0.1, 0.3]
+    gamma_vals = [0.05, 0.1]
+    n_reps = 1000
 
-    for name in list(graphs.keys())[4:5]: 
+    for name in list(graphs.keys()): 
         base = os.path.splitext(name)[0]
         for version, graph in {"full": graphs[name], "strong": strong_graphs.get(name)}.items():
             if graph is None or graph.number_of_edges() == 0:
