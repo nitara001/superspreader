@@ -63,8 +63,8 @@ if __name__ == "__main__":
                     except:
                         print(f"{file} has non-numeric weights, skipping")
 
-    tau_vals = [0.01, 0.05, 0.1, 0.3, 0.6]
-    gamma_vals = [0.01, 0.08, 0.3]
+    tau_vals = [0.01, 0.05, 0.1, 0.3]
+    gamma_vals = [0.02, 0.08, 0.2]
     n_reps = 1000
 
     for name in list(graphs.keys()): 
