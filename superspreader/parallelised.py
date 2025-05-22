@@ -65,9 +65,9 @@ if __name__ == "__main__":
 
     tau_vals = [0.1, 0.5, 0.8]
     gamma_vals = [0.1, 0.5]
-    n_reps = 1000
+    n_reps = 2
 
-    for name in list(graphs.keys()): 
+    for name in list(graphs.keys())[4:5]: 
         base = os.path.splitext(name)[0]
         for version, graph in {"full": graphs[name], "strong": strong_graphs.get(name)}.items():
             if graph is None or graph.number_of_edges() == 0:
@@ -81,8 +81,16 @@ if __name__ == "__main__":
             node_count = G_version.number_of_nodes()
             edge_count = G_version.number_of_edges()
             density = nx.density(G_version)
+            transitivity = nx.transitivity(G_version)
+            try:
+                diameter = nx.diameter(G_version)
+            except nx.NetworkXError:
+                diameter = np.nan  # disconnected
+            degrees = np.array(list(dict(G_version.degree()).values()))
+            degree_cv = np.std(degrees) / np.mean(degrees) if np.mean(degrees) > 0 else np.nan
             communities = list(greedy_modularity_communities(G_version))
             modularity = nx.algorithms.community.quality.modularity(G_version, communities)
+
             degree = dict(G_version.degree())
             eig = nx.eigenvector_centrality_numpy(G_version)
             btw = nx.betweenness_centrality(G_version)
@@ -100,7 +108,11 @@ if __name__ == "__main__":
                     "node_count": node_count,
                     "edge_count": edge_count,
                     "density": density,
-                    "modularity": modularity}
+                    "modularity": modularity, 
+                    "transitivity": transitivity,
+                    "network_size": node_count,
+                    "diameter": diameter,
+                    "degree_cv": degree_cv}
                 for attr in node_attrs:
                     rec[attr] = G_version.nodes[node].get(attr, None)
                 records.append(rec)
